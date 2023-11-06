@@ -73,6 +73,17 @@
   border: 2px solid var(--testimonials-stroke-selected, #7049c3);
 }
 
+.gradient-border-white {
+  border: 2px solid var(--testimonials-stroke, #fff);
+}
+
+.gradient-button {
+  background: var(
+    --button-gradient,
+    linear-gradient(88deg, #6741fe -2.52%, #b677df 49.5%, #6d53c9 89.23%)
+  );
+}
+
 .gradient-bg {
   background: var(
     --button-gradient,
@@ -84,4 +95,10 @@
   box-shadow: 0px -2px 40px 0px rgba(187, 155, 255, 0.15),
     0px -2px 10px 0px rgba(233, 223, 255, 0.3),
     0px 0.5px 0px 0px rgba(255, 255, 255, 0.5) inset;
+}
+
+.card-subs {
+  border-radius: 8px;
+  background: rgba(44, 44, 44, 0.24);
+  backdrop-filter: blur(3px);
 }
