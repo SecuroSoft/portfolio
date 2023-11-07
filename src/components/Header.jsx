@@ -15,8 +15,8 @@ const Header = () => {
             </div>
         </div>
         <div className='flex items-center space-x-[15px]'>
-            <img className='w-[24px] h-[24px]' src="/assets/linkedin.svg" alt="" />
-            <img className='w-[24px] h-[24px]' src="/assets/x.svg" alt="" />
+            <img className='w-[24px] h-[24px]' src="./assets/linkedin.svg" alt="" />
+            <img className='w-[24px] h-[24px]' src="./assets/x.svg" alt="" />
         </div>
     </div>
   )

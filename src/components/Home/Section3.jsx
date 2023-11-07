@@ -6,7 +6,7 @@ const Section3 = () => {
     <div className="flex items-center py-[126px] gap-[81px] max-w-7xl w-full mx-auto">
       <img
         className="h-[500px] w-auto object-contain"
-        src="/assets/design.png"
+        src="./assets/design.png"
         alt=""
       />
       <div className="space-y-[48px]">
