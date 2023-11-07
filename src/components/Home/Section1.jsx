@@ -20,7 +20,7 @@ const Section1 = () => {
         <span className="text-base font-semibold">Check Out Our Work</span>
         <ArrowRightIcon className="w-[24px] h-[24px]" />
       </button>
-      <img className="w-full -mt-[15%] -ml-[2%]" src="/assets/circle-glow.png" alt="" />
+      <img className="w-full -mt-[15%]" src="./assets/circle-glow.png" alt="" />
     </div>
   );
 };
