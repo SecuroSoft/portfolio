@@ -1,4 +1,18 @@
 import React from "react";
+import { CheckIcon } from "@heroicons/react/24/outline";
+
+const subscriptions = [
+  {
+    list: [
+      "Multi-step Zap",
+      "Unlimited Premium ",
+      "Unlimited Users Team",
+      "Advanced Admin",
+      "Unlimited Users Team",
+      "Custom Data ",
+    ],
+  },
+];
 
 const Section8 = () => {
   return (
@@ -22,20 +36,42 @@ const Section8 = () => {
           </button>
         </div>
       </div>
-      <div className="flex items-center gap-[32px]">
-        <div className="py-[32px] px-[48px] card-subs border-[2px] gradient-border-white flex flex-col items-center gap-9 max-w-[392px] w-full">
-          <div className="text-[24px] font-semibold leading-[36px]">
-            Starter
+      <br />
+      <br />
+      <div className="flex items-center gap-[64px]">
+        {[...Array(3)]?.map((subs, i) => (
+          <div
+            key={i}
+            className={`${i == 1 && "scale-[120%]"} py-[32px] px-[48px] card-subs border-[2px] gradient-border-white flex flex-col items-center gap-9 max-w-[392px] w-full`}
+          >
+            <div className="text-[24px] font-semibold leading-[36px]">
+              Starter
+            </div>
+            <div className="flex items-center space-x-1">
+              <span className="text-[36px] font-semibold leading-[46px] text-clash-display ">
+                $89
+              </span>
+              <span className="text-[24px] font-medium leading-[28px]">
+                /month
+              </span>
+            </div>
+            <div className="space-y-4 w-full">
+              {subscriptions[0].list?.map((item, index) => (
+                <div key={index} className="flex items-center space-x-2">
+                  <span className="bg-[#299D00] rounded-full w-[20px] h-[20px] flex items-center justify-center">
+                    <CheckIcon className="w-[16px] h-[16px]" />
+                  </span>
+                  <div className="text-base font-normal leading-[20px]">
+                    {item}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <button className="py-[10px] px-[24px] rounded-[27px] bg-[#6741FE] text-center w-full text-base font-semibold">
+              Choose plan
+            </button>
           </div>
-          <div className="flex items-center space-x-1">
-            <span className="text-[36px] font-semibold leading-[46px] text-clash-display ">
-              $89
-            </span>
-            <span className="text-[24px] font-medium leading-[28px]">
-              /month
-            </span>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

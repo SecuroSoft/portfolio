@@ -5,6 +5,9 @@ import "./App.css";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Development from "./pages/Development";
+import Services from "./pages/Services";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +16,13 @@ function App() {
     <div className="w-full">
       <Header />
       <Navbar />
-      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/development" element={<Development />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
