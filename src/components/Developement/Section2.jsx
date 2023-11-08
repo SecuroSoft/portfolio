@@ -31,7 +31,7 @@ const Section2 = () => {
         </div>
       </div>
       <div className="w-1/2">
-        <img className="w-full" src="/assets/tech.png" alt="" />
+        <img className="w-full" src="./assets/tech.png" alt="" />
       </div>
     </div>
   );

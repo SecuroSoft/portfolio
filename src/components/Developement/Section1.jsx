@@ -14,7 +14,7 @@ const Section1 = () => {
           Security Auditing and Development
         </div>
       </div>
-      <img className="w-full" src="/assets/Image Wrapper.png" alt="" />
+      <img className="w-full" src="./assets/Image Wrapper.png" alt="" />
     </div>
   );
 };

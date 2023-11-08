@@ -33,14 +33,14 @@ const Footer = () => {
         </h1>
         <div className="space-y-[10px]">
           <div className="flex space-x-[2px] items-start">
-            <img className="w-[32px] h-[32px]" src="/assets/phone.svg" alt="" />
+            <img className="w-[32px] h-[32px]" src="./assets/phone.svg" alt="" />
             <div className="space-y-[2px] ">
               <div className="text-[20px] font-semibold">UAE:</div>
               <div className="font-medium">+971 509361672</div>
             </div>
           </div>
           <div className="flex space-x-[2px] items-start">
-            <img className="w-[32px] h-[32px]" src="/assets/email.svg" alt="" />
+            <img className="w-[32px] h-[32px]" src="./assets/email.svg" alt="" />
             <div className="space-y-[2px] ">
               <div className="text-[20px] font-semibold">Email:</div>
               <div className="font-medium">contact@securosoft.com</div>
@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="flex space-x-[2px] items-center">
             <img
               className="w-[32px] h-[32px] p-[6px]"
-              src="/assets/whatsapp.svg"
+              src="./assets/whatsapp.svg"
               alt=""
             />
             <div className="space-y-[2px] ">
