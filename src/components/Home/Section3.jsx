@@ -15,10 +15,10 @@ const Section3 = () => {
             Why Choose Us?
           </h2>
           <div className="opacity-60 max-w-[712px]">
-            SecuroSoft believes in securing the Interwebs using advanced Tools,
-            Technologies, and accredited Talent. We aim to Transform Cyber
-            Security by Cutting through technological threats to match the speed
-            of Business Ecosystems.
+          Embark on a transformative journey with Securosoft Technologies, where our expertise effortlessly
+          aligns with the diversity of your project demands. Infused with a strong commitment to security 
+          and AI-driven innovation, our core focus is on delivering tailored, transparent, and timely solutions 
+          that exceed your unique tech requirements with confidence.
           </div>
         </div>
         <div className="space-y-4">
@@ -27,7 +27,7 @@ const Section3 = () => {
               <CheckIcon className="w-[24px] h-[24px]" />
             </div>
             <div className="text-clash-display font-semibold leading-[28px] text-[20px] tracking-[1px]">
-              Over 30 years of combined professional Work Experience.
+              Versatile Tech Expertise for Tailored Solutions
             </div>
           </div>
           <div className="py-[20px] px-[32px] choose-card gradient-border flex items-center gap-[24px] max-w-[597px]">
@@ -35,7 +35,7 @@ const Section3 = () => {
               <CheckIcon className="w-[24px] h-[24px]" />
             </div>
             <div className="text-clash-display font-semibold leading-[28px] text-[20px] tracking-[1px]">
-              Competitive Cost, Dedicated & timely services.
+              Client-Focused Approach with Open Communication
             </div>
           </div>
           <div className="py-[20px] px-[32px] choose-card flex items-center gap-[24px] max-w-[597px]">
@@ -43,7 +43,7 @@ const Section3 = () => {
               <CheckIcon className="w-[24px] h-[24px]" />
             </div>
             <div className="text-clash-display font-semibold leading-[28px] text-[20px] tracking-[1px]">
-              Competitive Cost, Dedicated & timely services.
+              Cost-Effective Solutions with Dedicated, Timely Service
             </div>
           </div>
         </div>

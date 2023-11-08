@@ -8,10 +8,7 @@ const Section4 = () => {
           Our Services
         </h1>
         <div className="text-lg font-normal text-center max-w-[770px]">
-          We distinguish ourselves in Quality and Timely Delivery. We deliver
-          Cyber Security Services, IT Solutions, Websites and Mobile Apps
-          tailored to the need of our customers. And we provide these at the
-          <b> MOST COMPETITIVE PRICE</b>.
+        At Securosoft, we transform aspirations into digital realities. From cutting-edge Cyber Security to innovative Tech Solutions, we ensure seamless experiences. Our commitment to quality and prompt delivery, all at unbeatable prices, defines the essence of Securosoft—where every idea is realized with digital brilliance.
         </div>
       </div>
       {/* CAROUSEL */}
