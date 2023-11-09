@@ -25,9 +25,9 @@ const Section2 = () => {
 
 const Card = ({img, text}) => {
   return (
-    <div className='py-[24px] px-[36px] flex items-center gap-[12px] marquee-card mr-[20px]'>
-      <img className='w-[47px] h-[47px] rounded-xl' src="" alt="" />
-      <div className='text-[23px] font-normal'>{text}</div>
+    <div className='py-[14px] px-[16px] lg:py-[24px] lg:px-[36px] flex items-center gap-[12px] marquee-card mr-[20px]'>
+      <img className='w-[26px] h-[26px] lg:w-[47px] lg:h-[47px] rounded-xl' src="" alt="" />
+      <div className='text-[17px] lg:text-[23px] font-normal'>{text}</div>
     </div>
   )
 }

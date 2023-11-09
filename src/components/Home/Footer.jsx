@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="py-[36px] px-[100px] space-x-6 flex items-start">
-      <div className="max-w-[566px] w-full">
+    <div className="py-[36px] px-[20px] lg:px-[100px] gap-6 flex items-start flex-wrap justify-between">
+      <div className="max-w-[566px]">
         <div className="space-y-6 max-w-[397px]">
           <h1>SecuroSoft</h1>
           <div className="font-normal leading-[24px]">
@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[360px] w-full space-y-[20px]">
+      <div className=" space-y-[20px]">
         <h1 className="text-clash-display text-[20px] font-semibold">
           Quick Links
         </h1>
@@ -27,7 +27,7 @@ const Footer = () => {
           <div>Privacy</div>
         </div>
       </div>
-      <div className="max-w-[266px] space-y-[20px]">
+      <div className="space-y-[20px]">
         <h1 className="text-clash-display text-[20px] font-semibold">
           Contact Us
         </h1>
