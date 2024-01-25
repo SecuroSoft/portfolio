@@ -16,42 +16,44 @@ const subscriptions = [
 
 const Section8 = () => {
   return (
-    <div className="py-[80px] max-w-7xl w-full mx-auto space-y-[60px]">
-      <div className="flex items-end justify-between">
-        <div className="space-y-[12px]">
-          <h1 className="text-clash-display linear-text text-[48px] leading-[64px] font-semibold">
+    <div className="home-eight home-bg pt-[59px] pb-[87px] md:py-[80px] max-w-7xl w-full mx-auto space-y-[60px] px-[20px] lg:px-0">
+      <div className="flex flex-col gap-[36px] lg:flex-row lg:items-end items-center lg:justify-between">
+        <div className="space-y-[8px] lg:space-y-[12px] ">
+          <h1 className="text-clash-display text-center linear-text text-[32px] lg:text-[48px] leading-[42px] lg:leading-[64px] font-semibold">
             Simple, Transparent Pricing
           </h1>
-          <div className="text-lg max-w-[608px] font-normal leading-[28px]">
+          <div className="text-xs text-center md:text-left lg:text-lg max-w-[608px] font-normal leading-[18px] lg:leading-[28px]">
             Passionately interested in Smart Contract Auditing & Development,
             Cyber Security Services, Software Solutions, Website.
           </div>
         </div>
-        <div className="gradient-border-white rounded-[50px] flex items-center gap-[12px]">
-          <button className="py-[12px] px-[18px] rounded-[50px] text-[20px] font-semibold leading-[28px]">
+        <div className="gradient-border-white rounded-[50px] flex items-center gap-[8px] lg:gap-[12px] w-fit">
+          <button className="py-[12px] lg:py-[12px] px-[16px] lg:px-[18px] rounded-[50px] text-[18px] lg:text-[20px] font-semibold leading-[20px] lg:leading-[28px]">
             Yearly
           </button>
-          <button className="py-[12px] px-[18px] rounded-[50px] text-[20px] font-semibold leading-[28px] gradient-button">
+          <button className="py-[12px] lg:py-[12px] px-[16px] lg:px-[18px] rounded-[50px] text-[18px] lg:text-[20px] font-semibold leading-[20px] lg:leading-[28px] gradient-button">
             Monthly
           </button>
         </div>
       </div>
       <br />
       <br />
-      <div className="flex items-center gap-[64px]">
+      <div className="flex items-center gap-[64px] flex-col lg:flex-row">
         {[...Array(3)]?.map((subs, i) => (
           <div
             key={i}
-            className={`${i == 1 && "scale-[120%]"} py-[32px] px-[48px] card-subs border-[2px] gradient-border-white flex flex-col items-center gap-9 max-w-[392px] w-full`}
+            className={`${
+              i == 1 && "lg:scale-[120%]"
+            } py-[36px] lg:py-[32px] px-[20px] lg:px-[48px] card-subs border-[2px] gradient-border-white flex flex-col items-center gap-[20px] lg:gap-9 max-w-[392px] w-full`}
           >
-            <div className="text-[24px] font-semibold leading-[36px]">
+            <div className="text-[18px] lg:text-[24px] font-semibold leading-[24px] lg:leading-[36px]">
               Starter
             </div>
             <div className="flex items-center space-x-1">
               <span className="text-[36px] font-semibold leading-[46px] text-clash-display ">
                 $89
               </span>
-              <span className="text-[24px] font-medium leading-[28px]">
+              <span className="lg:text-[24px] font-medium leading-[28px]">
                 /month
               </span>
             </div>
