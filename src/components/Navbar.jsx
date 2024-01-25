@@ -1,4 +1,6 @@
 import React from "react";
+import { Bars3Icon } from "@heroicons/react/24/solid";
+import Logo from "../assets/images/Logo.png";
 
 const menu = [
   {
@@ -18,7 +20,12 @@ const menu = [
 const Navbar = () => {
   return (
     <div className="py-[12px] px-[20px] lg:px-[100px] lg:py-[24px] flex items-center justify-between gap-6">
-      <div>Securosoft</div>
+      <div className="relative">
+        <img src={Logo} alt="" />
+      </div>
+      <div className="md:hidden">
+        <Bars3Icon className="h-6 w-6 text-white" />
+      </div>
       <div className="hidden lg:flex items-center space-x-[24px]">
         {menu?.map((item, key) => (
           <div className="text-lg font-semibold">{item?.name}</div>

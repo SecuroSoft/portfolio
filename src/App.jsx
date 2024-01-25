@@ -8,14 +8,14 @@ import Header from "./components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Development from "./pages/Development";
 import Services from "./pages/Services";
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="w-full">
-      <Header />
-      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route caseSensitive={true} path="/" element={<Home />} />

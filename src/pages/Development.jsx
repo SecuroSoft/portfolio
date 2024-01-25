@@ -11,8 +11,10 @@ const Development = () => {
         <Section1 />
         <Section2 />
         <Section3 />
+        <div className="footer-bg service-bg">
         <SendANote />
         <Footer />
+        </div>
     </div>
   )
 }

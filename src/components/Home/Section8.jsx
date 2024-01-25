@@ -16,13 +16,13 @@ const subscriptions = [
 
 const Section8 = () => {
   return (
-    <div className="py-[80px] max-w-7xl w-full mx-auto space-y-[60px] px-[20px] lg:px-0">
-      <div className="flex flex-col gap-[36px] lg:flex-row lg:items-end lg:justify-between">
-        <div className="space-y-[8px] lg:space-y-[12px]">
-          <h1 className="text-clash-display linear-text text-[32px] lg:text-[48px] leading-[42px] lg:leading-[64px] font-semibold">
+    <div className="home-eight home-bg pt-[59px] pb-[87px] md:py-[80px] max-w-7xl w-full mx-auto space-y-[60px] px-[20px] lg:px-0">
+      <div className="flex flex-col gap-[36px] lg:flex-row lg:items-end items-center lg:justify-between">
+        <div className="space-y-[8px] lg:space-y-[12px] ">
+          <h1 className="text-clash-display text-center linear-text text-[32px] lg:text-[48px] leading-[42px] lg:leading-[64px] font-semibold">
             Simple, Transparent Pricing
           </h1>
-          <div className="text-xs lg:text-lg max-w-[608px] font-normal leading-[18px] lg:leading-[28px]">
+          <div className="text-xs text-center md:text-left lg:text-lg max-w-[608px] font-normal leading-[18px] lg:leading-[28px]">
             Passionately interested in Smart Contract Auditing & Development,
             Cyber Security Services, Software Solutions, Website.
           </div>
