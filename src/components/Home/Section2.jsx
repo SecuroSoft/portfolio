@@ -1,12 +1,12 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
-import Birdeye from "../../../assets/images/Bird-eye.svg"
-import Vs from "../../../assets/images/vs.svg"
-import GitLab from "../../../assets/images/gitlab.svg"
-import GitHub from "../../../assets/images/gitHub.svg"
-import Raycast from "../../../assets/images/Raycast.svg"
-import Honey from "../../../assets/images/honey.svg"
-import Sentry from "../../../assets/images/Sentry.svg"
+import Birdeye from "../../assets/images/Bird-eye.svg"
+import Vs from "../../assets/images/vs.svg"
+import GitLab from "../../assets/images/gitlab.svg"
+import GitHub from "../../assets/images/gitHub.svg"
+import Raycast from "../../assets/images/Raycast.svg"
+import Honey from "../../assets/images/honey.svg"
+import Sentry from "../../assets/images/Sentry.svg"
 
 
 const data = [
