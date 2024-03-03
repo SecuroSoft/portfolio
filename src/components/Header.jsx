@@ -7,11 +7,11 @@ const Header = () => {
         <div className='space-x-[20px] flex items-center'>
             <div className='space-x-2 flex items-center'>
                 <EnvelopeIcon className='w-[12px] h-[12px] lg:w-[24px] lg:h-[24px]' />
-                <div className='text-[8px] lg:text-base font-medium'>Contact@Securesoft.com</div>
+                <div className='text-[8px] lg:text-base font-medium'><a href="mailto:contact@securosoft.com">contact@securosoft.com</a></div>
             </div>
             <div className='space-x-2 flex items-center'>
                 <MapPinIcon className='w-[12px] h-[12px] lg:w-[24px] lg:h-[24px]' />
-                <div className='text-[8px] lg:text-base font-medium'>India/UAE</div>
+                <div className='text-[8px] lg:text-base font-medium'>UAE / India</div>
             </div>
         </div>
         <div className='flex items-center space-x-[15px]'>

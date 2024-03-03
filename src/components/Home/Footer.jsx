@@ -8,11 +8,8 @@ const Footer = () => {
           <div className="space-y-6 max-w-[397px]">
             <h1>SecuroSoft</h1>
             <div className="font-normal leading-[24px]">
-              We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat...{" "}
-              <span className="font-bold">Read More</span>
+              We're a young and dynamic startup specializing in leveraging cutting-edge technology to automate and enhance the operations of small and medium businesses. Our focus areas include machine learning, data science, and creating custom solutions.
+              {/* <span className="font-bold">Read More</span> */}
             </div>
           </div>
         </div>
@@ -87,7 +84,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="font-normal text-xs md:text-base leading-4 md:leading-6 text-[#8C8C8C]">
-          © 2000-2021, All Rights Reserved
+          © 2019-{new Date().getFullYear()}, All Rights Reserved
         </p>
       </div>
     </>

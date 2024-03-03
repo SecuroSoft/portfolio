@@ -18,13 +18,13 @@ const Home = () => {
       <Section2 />
       <Section3 />
       <Section4 />
-      <Subscribe />
+      {/* <Subscribe /> */}
       <Section5 />
       <Section6 />
       <Section7 />
-      <Section8 />
+      {/* <Section8 /> */}
       <div className="footer-bg service-bg">
-      <SendANote />
+      {/* <SendANote /> */}
       <Footer />
       </div>
     </div>
